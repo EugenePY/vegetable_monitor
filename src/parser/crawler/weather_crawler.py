@@ -3,7 +3,6 @@ from __future__ import absolute_import
 import requests
 import re
 from bs4 import BeautifulSoup
-from parser.loggin import logger
 import json
 import mechanize
 import urllib

@@ -7,8 +7,6 @@ import requests
 import time
 import codecs
 from bs4 import BeautifulSoup
-from six import u
-from parser.loggin import logger
 
 
 def check_health(func):
