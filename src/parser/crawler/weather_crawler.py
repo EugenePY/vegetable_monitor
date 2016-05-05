@@ -194,5 +194,5 @@ if __name__ == "__main__":
         date = i.strftime('%Y/%m/%d')
         data.update(weather_crawler(date))
         data[date].update(price_crawler(date)[date])
-
+        print data[date].keys()
     pk.dump(data, open('./test.pk', 'wb'))
