@@ -1,0 +1,11 @@
+{
+"cloudantDB":{
+  "credentials": {
+    "username": "3bcecebb-7b5b-4cfd-bc5d-2eb8a266b7ab-bluemix",
+    "password": "c5dd0efb61246da6ef9ecd1578221987dce1f1de060c14bb7755de0f98e537c0",
+    "host": "3bcecebb-7b5b-4cfd-bc5d-2eb8a266b7ab-bluemix.cloudant.com",
+    "port": 443,
+    "url": "https://3bcecebb-7b5b-4cfd-bc5d-2eb8a266b7ab-bluemix:c5dd0efb61246da6ef9ecd1578221987dce1f1de060c14bb7755de0f98e537c0@3bcecebb-7b5b-4cfd-bc5d-2eb8a266b7ab-bluemix.cloudant.com"
+  }
+}
+}

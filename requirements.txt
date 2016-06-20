@@ -1,0 +1,4 @@
+couchdb
+requests
+scrapy
+beautifulsoup4
