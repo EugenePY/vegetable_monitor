@@ -1,0 +1,5 @@
+import requests
+
+
+ACCESS_KEY = "21147c16c172935"
+ACCESS_SECRETE = "8daa10be3a7b2667"
