@@ -18,15 +18,14 @@ class Taiwan(datetime.tzinfo):
         return datetime.timedelta(hours=8)
 
     def dst(self, dt):
-        return datetime.timedelta(0)
+        return datetime.timedelta(hours=0)
 
 
 def main():
     Done = False
-
-    TODAY = datetime.datetime.now(Taiwan())
+    TODAY = datetime.datetime.utcnow() + datetime.timedelta(hours=8)  # Taiwan..
     ACTIVATE_TIME = datetime.datetime(
-            TODAY.year, TODAY.month, TODAY.day, 1, tzinfo=Taiwan())
+            TODAY.year, TODAY.month, TODAY.day, 1) + datetime.timedelta(days=1)
 
     while not Done:
         logger.info('Crawler is running')
